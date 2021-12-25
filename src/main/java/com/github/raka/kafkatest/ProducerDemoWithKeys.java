@@ -14,7 +14,7 @@ public class ProducerDemoWithKeys {
         final Logger logger = LoggerFactory.getLogger(ProducerDemoWithKeys.class);
 
         //localhost to server kafka
-        String bootstrapServers = "198.13.59.61:9092";
+        String bootstrapServers = "192.168.56.101:9092";
 
         // create Producer properties
         Properties properties = new Properties();
